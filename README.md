@@ -38,3 +38,6 @@ if __name__ == "__main__":
         add_task(" ".join(sys.argv[2:]))
     elif sys.argv[1] == "list":
         list_tasks()
+git add src/app.py
+git commit -m "Initial CLI app with add and list commands"
+git push origin main
